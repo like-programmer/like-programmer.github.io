@@ -516,6 +516,9 @@ input::-webkit-inner-spin-button {
   width: calc(100% - 40px);
   min-height: 40px;
 }
+.progress-bar--inactive {
+  pointer-events: none;
+}
 .progress-bar__control {
   position: absolute;
   top: 50%;
